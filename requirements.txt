@@ -1,0 +1,5 @@
+flask
+openai
+simple-salesforce
+python-dotenv
+pyttsx3
