@@ -36,7 +36,7 @@ def ask():
     # Call Ollama locally
     try:
         response = requests.post(
-            "http://localhost:10000/ask",
+            "http://localhost:11434/api/generate",
                 # "https://holo-tutor.onrender.com/ask",
             json={
                "model": "llama3",
