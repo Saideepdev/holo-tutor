@@ -36,7 +36,7 @@ def ask():
     # Call Ollama locally
     try:
         response = requests.post(
-                https://modest-mutt-polished.ngrok-free.app/api/generate
+                "https://modest-mutt-polished.ngrok-free.app/api/generate",
            # "http://localhost:11434/api/generate",
                 # "https://holo-tutor.onrender.com/ask",
             json={
