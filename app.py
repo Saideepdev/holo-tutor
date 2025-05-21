@@ -36,7 +36,8 @@ def ask():
     # Call Ollama locally
     try:
         response = requests.post(
-            "https://designation-breakdown-organizing-lexington.trycloudflare.com/api/generate",
+            #"https://designation-breakdown-organizing-lexington.trycloudflare.com/api/generate",
+                 "https://holo-tutor.onrender.com/ask",
             json={
                "model": "gemma:2b",
                 "prompt": question,
