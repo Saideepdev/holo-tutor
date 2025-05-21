@@ -36,8 +36,8 @@ def ask():
     # Call Ollama locally
     try:
         response = requests.post(
-            #"http://localhost:10000/ask",
-                 "https://holo-tutor.onrender.com/ask",
+            "http://localhost:10000/ask",
+                # "https://holo-tutor.onrender.com/ask",
             json={
                "model": "llama3",
                 "prompt": question,
